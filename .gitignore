@@ -1,0 +1,16 @@
+# Hidden files
+.*
+
+# Temporary files
+*~
+
+# Git
+!.git*
+
+# EditorConfig
+!.editorconfig
+
+# IntelliJ Idea
+*.iml
+*.ipr
+*.iws
