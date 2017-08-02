@@ -49,13 +49,13 @@ function open_dialog()
     dialog:add_label("<center><h3>Settings</h3></center>", 1, 5, 2, 1)
 
     dialog:add_label("Profile name:", 1, 6, 1, 1)
-    profile_name_input = dialog:add_text_input('', 2, 6, 1, 1)
+    profile_name_input = dialog:add_text_input("", 2, 6, 1, 1)
 
     dialog:add_label("Intro duration (s):", 1, 7, 1, 1)
-    start_time_input = dialog:add_text_input('', 2, 7, 1, 1)
+    start_time_input = dialog:add_text_input("", 2, 7, 1, 1)
 
     dialog:add_label("Outro duration (s):", 1, 8, 1, 1)
-    finish_time_input = dialog:add_text_input('', 2, 8, 1, 1)
+    finish_time_input = dialog:add_text_input("", 2, 8, 1, 1)
 
     dialog:add_button("Save", save_profile, 1, 9, 2, 1)
 
@@ -95,9 +95,9 @@ function delete_profile()
 end
 
 function save_profile()
-    if profile_name_input:get_text() == '' then return end
-    if start_time_input:get_text() == '' then start_time_input:set_text('0') end
-    if finish_time_input:get_text() == '' then finish_time_input:set_text('0') end
+    if profile_name_input:get_text() == "" then return end
+    if start_time_input:get_text() == "" then start_time_input:set_text("0") end
+    if finish_time_input:get_text() == "" then finish_time_input:set_text("0") end
 
     local updated_existing = false
 
@@ -121,8 +121,8 @@ function save_profile()
 end
 
 function start_playlist()
-    if start_time_input:get_text() == '' then return end
-    if finish_time_input:get_text() == '' then return end
+    if start_time_input:get_text() == "" then return end
+    if finish_time_input:get_text() == "" then return end
 
     local playlist = vlc.playlist.get("playlist", false)
     local children = {}
