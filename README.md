@@ -17,7 +17,7 @@ your VLC extensions directory:
 ## Usage
 
 1. Queue up media items within your playlist (<kbd>Ctrl+L</kbd>).
-2. From the <kbd>V<u>i</u>ew</kbd> menu, select <kbd>Skip Intro/Outro
+2. From the <kbd>View</kbd> menu, select <kbd>Skip Intro/Outro
    Credits</kbd>.
 3. If you have an existing profile, select it from the dropdown menu and press
    <kbd>Load</kbd>. This will populate the settings section with the values
