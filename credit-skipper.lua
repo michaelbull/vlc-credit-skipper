@@ -5,12 +5,12 @@
 
 function descriptor()
     return {
-        title = "Credit Skipper";
-        version = "1.0.0";
-        author = "Michael Bull";
-        url = 'https://github.com/michaelbull/vlc-credit-skipper';
-        shortdesc = "Skip Intro/Outro Credits";
-        description = "Automatically skip intro/outro credit sequences in VLC.";
+        title = "Credit Skipper",
+        version = "1.0.0",
+        author = "Michael Bull",
+        url = "https://github.com/michaelbull/vlc-credit-skipper",
+        shortdesc = "Skip Intro/Outro Credits",
+        description = "Automatically skip intro/outro credit sequences in VLC.",
         capabilities = {}
     }
 end
